@@ -458,3 +458,345 @@ nav > ul {
     margin-left: 136px;
     margin-top: 32px;
 }
+
+
+
+
+
+/****************************************************DESKTOP SIZE********************************************************/
+
+@media only screen and (max-width: 1439px) {
+
+    .illustration1_desktop > img { display: none; }
+
+    .bg-curve-desk { display: none; }
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+
+    .breakpoint-size { width: 1440px; }
+
+
+                                /*HEADER  (DESKTOP)*/
+    .logo-header > img {
+        width: 166px;
+        height: 49px;
+    }
+
+    .header {
+        margin-top: 65px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .menu { font-size: 16px; }
+
+    nav > ul { gap: 48px; }
+
+
+
+                        /*SECTION  (DESKTOP)*/
+
+    
+    .section {
+        margin-top: 86px;
+        margin-right: 80px;
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
+
+    .illustration1_mobile > img { display: none; }
+
+    .illustration1_desktop  > img {
+        width: 640px;
+        height: 474px;
+    }
+
+    .section-texts { margin-top: 0px; }
+
+    .section-texts > h1 {
+        width: 627px;
+        height: 120px;
+        line-height: 60px;
+    
+        margin-left: 0px;
+        margin-right: 0px;
+    
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .section-texts > p {
+        width: 585px;
+        height: 72px;
+        line-height: 24px;
+    
+        margin-left: 0px;
+        margin-right: 0px;
+    
+        font-size: 17px;
+        text-align: left;
+    
+        margin-top: 15px;
+    }
+
+    .enter-email {
+        width: 320px;
+        height: 45px;
+    
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+
+    .enter-email > h6 {
+        font-size: 14px;
+        letter-spacing: 0.47px;
+    }
+
+    .getstarted {
+        width: 200px;
+        height: 45px;
+       
+        margin-left: 16px;
+        margin-top: 25px;
+    }
+
+    .getstarted-mail_containers { display: flex; }
+
+
+
+                                /********ASIDE*******/
+
+    .bg-curve { display: none; }
+
+    .bg-curve-desk { margin-top: 164px; }
+
+    .aside {
+        margin-top: -4px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .illustration2_mobile > img {
+        width: 542px;
+        height: 409px;
+        margin-left: 0px;
+    }
+
+   
+    .aside-texts > h1 {
+        font-size: 40px;
+        margin-left: 80px;
+        margin-top: 178px;
+    }
+    
+    .paragraph1 {
+        width: 529px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    
+        margin-top: 38px;
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+
+    .paragraph2 {
+        width: 529px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    
+        margin-top: 16px;
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+
+    .seehow > h6 {
+        font-size: 16px;
+    
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+
+    .arrow { margin-top: 22px; }
+
+    .line {
+        width: 166px;
+        margin-top: 4px;
+        margin-left: 80px;
+    }
+
+    .aside-last {
+        width: 356px;
+        height: 215px;
+        border-radius: 5px;
+        
+        margin-top: 45px;
+        margin-left: 80px;
+    }
+
+    .quotes > img {
+        margin-left: 33px;
+        margin-top: 24px;
+    }
+
+    .aside-last > p {
+        margin-left: 33px;
+        margin-right: 34px;
+    
+        font-size: 13px;
+        line-height: 23px;
+        letter-spacing: 0.5px;
+    }
+
+    .person {
+        margin-top: 16px;
+        margin-left: 33px;
+    }
+
+    .avatar > img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .name {
+        font-size: 11px;
+        letter-spacing: 0.55px;
+    }
+
+    .proffesion {
+        font-size: 8px;
+        letter-spacing: 0.4px;
+    }
+
+
+
+
+
+                            /******************SECTION 2 *******************/
+                
+    .section2 {
+        width: 1440;
+        height: 370px;
+        padding-left: 80px;
+        padding-right: 120px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .texts-section2 > h2 {
+        padding-top: 100px;
+        margin-left: 0px;
+    
+        font-size: 32px;
+    }
+
+    .texts-section2 > p {
+        margin-left: 0px;
+        width: 533px;
+        height: 72px;
+
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .first {
+        width: 480px;
+        height: 48px;
+        border-radius: 3.13px;
+    
+        margin-left: 0px;
+        margin-top: 112px;
+    }
+
+    .first > h6 {
+        font-size: 12px;
+    
+        padding-top: 16px;
+        margin-left: 22px;
+    }
+
+    .second {
+        width: 200px;
+        height: 48px;
+        border-radius: 3.13px;
+    
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    .second > h6 { font-size: 14px; }
+
+
+
+
+                            /********FOOTER************/
+    
+    .footer {
+        width: 1440px;
+        height: 391px;
+        
+        display: flex;
+    }
+
+    .logo-footer {
+        width: 135px;
+        height: 39px;
+        margin-left: 80px;
+        padding-top: 92px;
+    }
+    
+    .phone { margin-left: 80px; }
+    
+    
+    .mail { margin-left: 80px; }
+    
+    
+    .footer-middle {
+        margin-left: 222px;
+        margin-top: 140px;
+    }
+    
+    
+    .footer-bottom {
+        padding-top: 140px;
+        margin-left: 200px;
+    }
+    
+  
+    
+    .social-icons {
+        margin-left: 185px;
+        margin-top: 140px;
+    }
+                            
+                            
+    
+    
+
+
+
+    
+
+            
+
+
+
+
+
+
+
+}
+
